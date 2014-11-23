@@ -14,7 +14,7 @@ public class WaterDamage implements Listener{
 public void onPlayerMove(PlayerMoveEvent evt) {
     Material m = evt.getPlayer().getLocation().getBlock().getType();
     if (m == Material.STATIONARY_WATER || m == Material.WATER) {
-        //Kill them with sadistic ways of torture :)
+        //Shawn is editing this to test
     }
 }
 }
